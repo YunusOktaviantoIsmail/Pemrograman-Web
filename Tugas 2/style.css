@@ -1,0 +1,74 @@
+body {
+    background-color: grey;
+    font-family: sans-serif;
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+    margin: auto;
+}
+
+.foto {
+    display: block;
+    margin: auto;
+    border-radius: 100%;
+    width: 200px;
+    height: 200px;
+}
+
+.paragraph p {
+    padding-top: 15px;
+    margin: auto;
+    text-align: justify;
+    width: 500px;
+    height: auto;
+}
+
+.academic {
+    padding-top: 5px;
+    text-align: left;
+    margin: auto;
+    width: 500px;
+    height: auto;
+}
+
+hr {
+    width: 500px;
+    margin: auto;
+}
+
+.academic table {
+    width: 800px;
+    height: auto;
+    text-align: left;
+    margin: auto;
+}
+
+.hobby {
+    padding-top: 5px;
+    text-align: left;
+    margin: auto;
+    width: 500px;
+    height: 90px;
+}
+
+.hobby ol li {
+    width: 500px;
+    text-align: left;
+    margin: auto;
+}
+
+.movie {
+    padding-top: 5px;
+    text-align: left;
+    margin: auto;
+    width: 500px;
+    height: auto;
+}
+
+.movie ul li {
+    width: 500px;
+    text-align: left;
+    margin: auto;
+}
