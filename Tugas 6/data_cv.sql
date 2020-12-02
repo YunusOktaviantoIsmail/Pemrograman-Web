@@ -1,7 +1,8 @@
 CREATE TABLE education (
-  id int NOT NULL,
-  sekolah varchar(25) DEFAULT NULL,
-  tahun varchar(10) DEFAULT NULL
+  id int NOT NULL AUTO_INCREMENT,
+  sekolah varchar(25),
+  tahun varchar(10),
+  PRIMARY KEY(id)
 );
 
 CREATE TABLE organization (
@@ -26,12 +27,6 @@ CREATE TABLE profil (
 );
 
 =====================================================
-
-INSERT INTO education ('id', 'sekolah', 'tahun') VALUES
-(1, 'SDN JAMBANGAN 1/413', '2006-2012'),
-(2, 'SMP NEGERI 21 SURABAYA', '2012-2015'),
-(3, 'SMA HANG TUAH 4 SURABAYA', '2015-2018'),
-(4, 'UPN \"VETERAN\" JAWA TIMUR', '2018-NOW');
 
 INSERT INTO organization (org, nama_org, th_org) VALUES
 (1, 'UKM FOTOGRAFI \"Akriwahatra\"', '2019'),
