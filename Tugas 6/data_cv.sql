@@ -1,6 +1,6 @@
 CREATE TABLE education (
   id int NOT NULL AUTO_INCREMENT,
-  sekolah varchar(25),
+  sekolah varchar(50),
   tahun varchar(10),
   PRIMARY KEY(id)
 );
